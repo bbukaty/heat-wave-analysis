@@ -9,6 +9,21 @@ for year in [str(year) for year in range(1998, 2024)]:
     print(ghi.attrs["psm_scale_factor"])
 ```
 
+unused now that I'm using pandas functionality more effectively.
+def crop_data(data, time_series, data_year, month=None):
+    if month:
+        start_timestamp = pd.to_datetime(f'{data_year}-{str(month).zfill(2)}-01').tz_localize(time_series.tz)
+        end_timestamp = start_timestamp + pd.offsets.MonthEnd(1)
+        end_timestamp = end_timestamp.replace(hour=23, minute=59, second=59)
+    else:
+        # crop to year
+        start_timestamp = pd.Timestamp('2016-01-01 00:00:00', tz=time_series.tz)
+        end_timestamp = pd.Timestamp('2016-12-31 12:59:59', tz=time_series.tz)
+    print(f'cropping data within start: {start_timestamp}, end: {end_timestamp}')
+
+    mask = (time_series >= start_timestamp) & (time_series <= end_timestamp)
+    return data[mask], time_series[mask]
+
 
 Fort Ross Monthly Calendar Query
 https://tidesandcurrents.noaa.gov/noaatidepredictions.html?id=9416024&units=standard&bdate=20160601&edate=20160630&timezone=LST/LDT&clock=12hour&datum=MLLW&interval=hilo&action=monthlychart

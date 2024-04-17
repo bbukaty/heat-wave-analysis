@@ -1,2 +1,3 @@
 .hscfg
-/cached/
+cached/*
+__pycache__
