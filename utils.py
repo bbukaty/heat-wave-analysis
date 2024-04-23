@@ -35,6 +35,7 @@ def get_nsrdb_data(data_year, datum, site_idx, site_timezone):
         ghi_series = pd.Series(data=site_ghi_series, index=site_time_series)
         
         with open(cached_data_path, 'wb') as file:
+            print(f'Saved {cached_data_path}.')
             pickle.dump((ghi_series), file)
     
     return ghi_series

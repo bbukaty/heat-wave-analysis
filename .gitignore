@@ -1,3 +1,4 @@
 .hscfg
 cached/*
+datasets/*
 __pycache__
