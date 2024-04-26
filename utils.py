@@ -13,8 +13,7 @@ def get_nsrdb_data(data_year, datum, site_idx, site_timezone):
         site_timezone (String): pandas timezone string, e.g.g America/Los_Angeles
 
     Returns:
-        site_ghi_series: a 1d ndarray with ghi values for the year
-        time_series: a pandas DateTimeIndex localized to the site timezone.
+        data_year, a series with a timeindex
     """    
     
 
@@ -39,4 +38,14 @@ def get_nsrdb_data(data_year, datum, site_idx, site_timezone):
             pickle.dump((ghi_series), file)
     
     return ghi_series
+
+def get_hot_rocks_data():
+    file_path = 'external/hot-rocks/supplementary_fort_ross_temps.csv'
+    data = pd.read_csv(file_path, parse_dates=['dt'], date_format='%m/%d/%y %H:%M')
+
+    # had a bit of difficulty with the lack of timezones in the data, have to manually indicate no daylight savings time here
+    data['dt'] = pd.DatetimeIndex(data['dt']).tz_localize('America/Los_Angeles', ambiguous=False)
+    data.set_index('dt', inplace=True)
+    data.sort_index(inplace=True)
+    return data
 
