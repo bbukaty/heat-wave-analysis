@@ -50,55 +50,16 @@ At this location, what percent of solar radiation was absorbed when the tide was
 ## Approach Notes
 - Neither approach takes intertidal slope into account.
 
-## Technical Notes
-2 days, hot then cloudy:
-```python
-raw_ghi = [0, 0, 200, 400, 600, 650, 600, 300, 50, 0, 0, 0, 100, 100, 200, 300, 300, 300, 50, 0, 0]
+## Next Steps
+What do we really care about?
+I'd like to be able to compare two places. how do I do that?
 
-daily_total_ghi = [2800, ..., 2800, 1350, ..., 1350]
 
-proportion_daily_ghi = raw_ghi / daily_total_ghi
+Are we building a "model that identifies heat waves"?
+- well, no, because a definition of heat wave has never included tide before.
+- if we ignore tides for a sec can we do that?
 
-# sanity check:
-# sum of proportion_daily_ghi over a day should == 1
+do we care about radiation from times other than peak sun?
+ - could use a touch of clarification about which factors are important.
+ - sun exposure/absorption, air temp, water temp, how does it all come together to be bad for organisms?
 
-# normalized with min/max of current data (a year, probably)
-normalized_inverse_tide = [0.1, 0.2, 0.3, 0.2, 0.3, 0.5, 0.3, ...,]
-
-proportion_daily_ghi_in_intertidal = proportion_daily_ghi * normalized_inverse_tide
-
-# sum of that over the day should be some substantial proportion of 1
-```
-### Thresholded version:
-
-```python
-proportion_daily_ghi = 
-```
-start with `proportion_daily_ghi`
-
-calculate `tide_below_threshold_mask = tide_values < low_tide_threshold`
- - what is `low_tide_threshold`? probably a yearly value, so `tide_values` above should be for the whole year
-
-`ghi_absorbed_at_low_tide = proportion_daily_ghi & tide_below_threshold_mask`
-
-`proportion_daily_ghi_below_tide_threshold = 
-
-```python
-# same as before
-proportion_daily_ghi = raw_ghi / daily_total_ghi
-
-tide_below_threshold_mask = tide_values < low_tide_threshold
-# where do we get above threshold? probably a yearly value, so `tide_values` below should be for the whole year
-
-tide_thresholded_ghi = proportion_daily_ghi & tide_below_threshold_mask
-
-thresholded_ghi_absorbed_per_day = aggregate(tide_thresholded_ghi, num_values_in_day)
-
-# those daily values should also be some substantial proportion of 1.
-# I would expect them to be a bit lower than the scaled version under the assumption that we count less radiation with the hard cutoff.
-```
-
-## No Wait
-shouldn't be proportion style.
-
-Total thresholded ghi in summer months each year, averaged across years of data.
