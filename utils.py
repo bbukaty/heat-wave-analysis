@@ -31,6 +31,33 @@ SITES = {
     }
 }
 
+# MONTH_COLORS = {
+#     1: 'violet',
+#     4: 'gray',
+#     5: 'darkred',
+#     6: 'red',
+#     7: 'orange',
+#     8: 'gold',
+#     9: 'lightgreen',
+#     10: 'green',
+#     11: 'blue',
+#     12: 'darkblue',
+#     12: 'magenta'
+# }
+
+MONTH_COLORS = {
+    1: 'gray',
+    4: 'darkred',
+    5: 'red',
+    6: 'orange',
+    7: 'gold',
+    8: 'lightgreen',
+    9: 'green',
+    10: 'blue',
+    11: 'darkblue',
+    12: 'magenta'
+}
+
 
 def get_nsrdb_data(data_year, datum, site_idx, site_timezone):
     """Get the full year of ghi data for this site from NSRDB.
@@ -138,3 +165,8 @@ def interpolate_tide_preds(tide_series, desired_time_index):
     tide_high_res = pd.Series(
         data=tide_high_res_numeric, index=desired_time_index)
     return tide_high_res
+
+
+def normalize_series(series) -> pd.Series:
+    min_val, max_val = series.min(), series.max()
+    return (series - min_val) / (max_val - min_val)
