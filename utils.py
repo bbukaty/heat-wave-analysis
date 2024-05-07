@@ -102,6 +102,16 @@ def get_hot_rocks_data():
     data.sort_index(inplace=True)
     return data
 
+def get_robomussels_data():
+    file_path = 'external/robomussels/alexis_data/fixed-data.csv'
+    data = pd.read_csv(file_path, parse_dates=['dt'], date_format='%m/%d/%y %H:%M')
+
+    # had a bit of difficulty with the lack of timezones in the data, have to manually indicate no daylight savings time here
+    data['dt'] = pd.DatetimeIndex(data['dt']).tz_localize('America/Los_Angeles', ambiguous=False)
+    data.set_index('dt', inplace=True)
+    data.sort_index(inplace=True)
+    return data
+
 
 def noaa_date_format(pd_date):
     return pd_date.strftime('%Y%m%d')

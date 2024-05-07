@@ -1,0 +1,1 @@
+wave_exp:All,output_type:Raw,location:Marblehead,sub_zone:Rocky,country:USA,state_province:Massachusetts,zone:All,biomimic_type:Rock
