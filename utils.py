@@ -158,8 +158,7 @@ def get_noaa_tide_preds(site, date_range):
 def interpolate_tide_preds(tide_series, desired_time_index):
     """Use cubic interpolation to reconstruct a high-res tide curve from hilo predictions."""
     tide_timestamps_numeric = mdates.date2num(tide_series.index)
-    interpolator = interp1d(tide_timestamps_numeric,
-                            tide_series, kind='cubic', fill_value='extrapolate')
+    interpolator = interp1d(tide_timestamps_numeric, tide_series, kind='cubic', fill_value='extrapolate')
 
     tide_high_res_numeric = interpolator(mdates.date2num(desired_time_index))
     tide_high_res = pd.Series(
