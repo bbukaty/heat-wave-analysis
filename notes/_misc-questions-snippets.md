@@ -43,3 +43,15 @@ probably just a cutoff of what we consider intertidal. tide gets even higher, st
 highest observed tide datum would be ideal but fort ross, for example, doesn't seem to offer that datum
 
 so for now I settled on just min and max over the month/year
+
+if num_days < 200:
+        # Set x-axis to show grid lines every day
+        plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=1))  # Place a tick every day
+        plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+
+        # Optionally, set a minor locator with more frequent grid lines if needed
+        plt.gca().xaxis.set_minor_locator(mdates.DayLocator())
+
+        # Set less frequent labels, e.g., every week
+        plt.gca().xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))  # Every Monday
+        plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))  # Format for less frequent labels
