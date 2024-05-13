@@ -1,0 +1,99 @@
+Intertidal Temperature Data from Kachemak Bay, Prince William Sound, Katmai National Park and Preserve, and Kenai Fjords National Park
+
+Current Citation: U.S. Geological Survey - Alaska Science Center, National Park Service - Southwest Alaska Inventory and Monitoring Network, and University of Alaska Fairbanks - College of Fisheries and Ocean Sciences, 2016. Intertidal temperature data from Kachemak Bay, Prince William Sound, Katmai National Park and Preserve, and Kenai Fjords National Park (ver 4.0, September 2023): U.S. Geological Survey data release, https://doi.org/10.5066/F7WH2N3T
+
+=======================================
+Version 1.0 posted online September 2016
+
+Original Citation:
+Monson, D.H., Kloecker, K.A., Ballachey, B.E., Bodkin, J.L., Coletti, H.A., Dean, T.A., Esler, D., Esslinger, G.G., Paszalek, J. Weitzman, B.P. 2016. Gulf Watch Alaska Benthic Component: Marine Water Quality, Water Temperature from Prince William Sound, Katmai National Park and Preserve, and Kenai Fjords National Park, 2006-2014: U.S. Geological Survey data release, https://doi.org/10.5066/F7WH2N3T
+
+Overview:
+One ZIP package comprised of 22 comma separated value (CSV) formatted tables with temperature records from individual sampling sites.
+
+Data
+
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2006-2014AKP_B10_RI_01KukakTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2006-2014AKP_B10_RI_02KafliaTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2006-2014AKP_B10_RI_03KinakTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2006-2014AKP_B10_RI_04AmalikTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2006-2014AKP_B10_RI_05TakliTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2006-2014KEP_B05_RI_04Nuka_PassTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2007-2014KEP_B05_RI_01AialikTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2007-2014KEP_B05_RI_02McCartyTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2007-2014KEP_B05_RI_03Nuka_BayTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2007-2014KEP_B05_RI_05HarrisTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2010-2014PWS_B08_RI_01HoganTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2010-2014PWS_B08_RI_02IktuaTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2010-2014PWS_B08_RI_03WhaleTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2010-2014PWS_B08_RI_04JohnsonTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2010-2014PWS_B08_RI_05HerringTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2012-2013PWS_B07_RE_01CedarTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2012-2013PWS_B07_RE_04PerryTemperature_Data_11Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2012-2014PWS_B09_RE_01GalenaTemperature_Data_09Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2012-2014PWS_B09_RE_02PortFidalgoTemperature_Data_09Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2012-2014PWS_B09_RE_03OlsenTemperature_Data_09Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2012-2014PWS_B09_RE_04SimpsonTemperature_Data_09Feb2016.csv
+NearshoreBenthicSystemsInGOA_SOP10_MarineWaterQuality_2012-2014PWS_B09_RE_05ObservationTemperature_Data_09Feb2016.csv
+
+**Separate Data Release which was later combined in Version 2.0**
+posted online September 2017 
+
+Original Citation:
+Monson, D.H., Kloecker, K.A. 2017. Gulf Watch Alaska Nearshore Component: Marine Water Quality, Water Temperature from Prince William Sound, Katmai National Park and Preserve, and Kenai Fjords National Park, 2014-2016: U.S. Geological Survey data release, https://doi.org/10.5066/F77S7KXH.
+
+Overview:
+One ZIP package comprised of seven CSV tables with temperature records from individual sampling locations grouped by sampling Block.
+
+Data:
+NearshoreSystemsInGOA_SOP10_MarineWaterQuality_2013-2015_NPWS_Temperature_Data_21Dec2016.csv
+NearshoreSystemsInGOA_SOP10_MarineWaterQuality_2014-2015_KATM_Temperature_Data_18Sept2017.csv
+NearshoreSystemsInGOA_SOP10_MarineWaterQuality_2014-2015_KEFJ_Temperature_Data_21Dec2016.csv
+NearshoreSystemsInGOA_SOP10_MarineWaterQuality_2014-2015_WPWS_Temperature_Data_1sept2017.csv
+NearshoreSystemsInGOA_SOP10_MarineWaterQuality_2015-2016_KATM_Temperature_Data_21Dec2016.csv
+NearshoreSystemsInGOA_SOP10_MarineWaterQuality_2015-2016_KEFJ_Temperature_Data_21Dec2016.csv
+NearshoreSystemsInGOA_SOP10_MarineWaterQuality_2015-2016_WPWS_Temperature_Data_21Dec2016.csv
+
+========================================
+Version 2.0 posted online July 2022
+
+Citation:
+U.S. Geological Survey Alaska Science Center, National Park Service Southwest Alaska Inventory and Monitoring Network, University of Alaska Fairbanks College of Fisheries and Ocean Sciences. 2016. Intertidal temperature data from Kachemak Bay, Prince William Sound, Katmai National Park and Preserve, and Kenai Fjords National Park (ver 2.0, July 2022): U.S. Geological Survey data release, https://doi.org/10.5066/F7WH2N3T
+
+Overview:
+-This Data Release consolidates data from two previously separate Data Releases (described above) into a single Data Release and includes additional data not provided in any previous Data Releases.
+-This comprehensive Data Release provides the most updated and complete set of intertidal temperature data.
+-As additional samples are processed, the results will be appended to the tables provided in this Data Release.
+
+Changes in version 2.0:
+-Consolidated: data from two existing data releases
+-Appended: additional years of temperature data
+-Updated: citation (including authors and title)
+-Reorganized: CSV tables: divided into multiple CSV tables by sampling site and year
+-Renamed: CSV filenames
+-Updated: metadata
+
+Data:
+One ZIP package comprised of multiple CSV tables with intertidal temperature data. Each CSV table provides data from a single sampling site for a single sampling year. Tables are grouped in folders by sampling Block.
+
+========================================
+Version 3.0 posted online August 2022
+
+Changes:
+-Appended: 2021-2022 season of temperature data
+-Renamed: CSV temperature filenames by replacing prefix "waterTemperature" with "Intertidal_Temperature"
+-Renamed: Contributors table filename by inserting "intertidalTemperature"
+-Updated: metadata
+
+Data:
+One ZIP package comprised of multiple CSV tables with intertidal temperature data. Each CSV table provides data from a single sampling site for a single sampling year. Tables are grouped in folders by sampling Block.
+
+========================================
+Version 4.0 posted online September 2023
+
+Changes:
+-Appended: 2022-2023 season of temperature data
+-Updated: metadata
+
+Data:
+One ZIP package comprised of multiple CSV tables with intertidal temperature data. Each CSV table provides data from a single sampling site for a single sampling year. Tables are grouped in folders by sampling Block.

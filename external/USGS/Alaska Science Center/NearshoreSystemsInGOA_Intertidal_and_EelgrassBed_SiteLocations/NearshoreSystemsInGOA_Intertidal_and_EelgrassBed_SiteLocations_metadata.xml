@@ -1,0 +1,2176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Heather A. Coletti</origin>
+        <origin>Kimberly A. Kloecker</origin>
+        <origin>James L. Bodkin</origin>
+        <origin>Tom A. Dean</origin>
+        <pubdate>2017</pubdate>
+        <title>Gulf Watch Alaska Nearshore Component: Monitoring Site Locations from Prince William Sound, Katmai National Park and Preserve, and Kenai Fjords National Park</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Anchorage, AK</pubplace>
+          <publish>U.S. Geological Survey, Alaska Science Center</publish>
+        </pubinfo>
+        <othercit>Suggested Citation:
+Heather A. Coletti, Kimberly A. Kloecker, James L. Bodkin, and Tom A. Dean, 2017, Gulf Watch Alaska Nearshore Component: Monitoring Site Locations from Prince William Sound, Katmai National Park and Preserve, and Kenai Fjords National Park: U.S. Geological Survey data release, http://dx.doi.org/10.5066/F78S4N3R.</othercit>
+        <onlink>http://dx.doi.org/10.5066/F78S4N3R</onlink>
+        <onlink>https://alaska.usgs.gov/portal/project.php?project_id=99</onlink>
+        <onlink>http://science.nature.nps.gov/im/units/swan/monitor/nearshore.cfm</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>The Exxon Valdez Oil Spill Trustee Council</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Gulf Watch Alaska</title>
+            <geoform>Website</geoform>
+            <pubinfo>
+              <pubplace>Anchorage, Alaska</pubplace>
+              <publish>Exxon Valdez Oil Spill Trustee Council (EVOSTC)</publish>
+            </pubinfo>
+            <othercit>Gulf Watch Alaska is the long-term ecosystem monitoring program of the Exxon Valdez Oil Spill Trustee Council for the marine ecosystem affected by the 1989 oil spill.</othercit>
+            <onlink>http://www.gulfwatchalaska.org/</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data are part of the Gulf Watch Alaska (GWA) long term monitoring program, nearshore monitoring component. Specifically, these data describe site locations for rocky intertidal, mussel sampling, soft sediment bivalve sampling, and eelgrass bed sampling in the northern Gulf of Alaska within the GWA program. The dataset consists of two comma separated files exported from a Microsoft Excel workbook. The data consists of 1. rocky intertidal, mussel sampling, and soft sediment site location information, and 2. eelgrass bed locations. Sampling will be conducted in Katmai National
+Park and Preserve (KATM), Kenai Fjords National Park (KEFJ), Prince William Sound (PWS)
+and to a lesser extent on the Lake Clark National Park and Preserve (LACL). Sites from a related project
+that provides similar data from Kachemak Bay (KBAY) are included here.</abstract>
+      <purpose>This data set contains specific location information for the sampling sites of the nearshore component of the Gulf Watch Alaska long term monitoring program. The number and location of sampling units differ among metrics, but in general the design calls
+for sampling at multiple locations within each area. Sampling locations were selected to provide a random, spatially balanced distribution. The design allows for detection of large temporal or spatial-scale changes. For some metrics the design will also allow for detection of changes that may occur on a more localized scale.</purpose>
+      <supplinf>These site locations are a component of the nearshore monitoring portion of the Gulf Watch Alaska (GWA) program. 
+The Exxon Valdez Oil Spill Trustee Council and state and federal agencies are supporting a five-year, $12 million long-term monitoring program in the Gulf of Alaska region affected by the 1989 Exxon Valdez oil spill.  The monitoring program, called GulfWatch, includes 25 principal scientists and seeks to provide data to identify and help understand the impacts of multiple ecosystem factors on the recovery of injured resources.  This program is expected to be 20 years in total length, but planned and funded in five-year increments. It builds upon the past 23 years of restoration research and monitoring by the EVOSTC and federal and state agencies.  Monitoring efforts will span a range of species and marine conditions, organized in three components, with integrated data management and synthesis of science information provided across the components.  The program includes sites in Prince William Sound, lower Cook Inlet and the outer Kenai Peninsula coast.
+Environmental Drivers component - oceanography, plankton.
+Nearshore component - intertidal invertebrate and algae, sea otters, seabirds, lingering oil.
+Pelagic component - whales, seabirds, forage fish.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2003</begdate>
+          <enddate>2015</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>The Gulf of Alaska: specific blocks from Prince William Sound (east, north, and west), Kenai Fjords National Park, Katmai National Park and Preserve.</descgeog>
+      <bounding>
+        <westbc>-156.030</westbc>
+        <eastbc>-145.600</eastbc>
+        <northbc>61.800</northbc>
+        <southbc>57.030</southbc>
+      </bounding>
+    </spdom>
+        <keywords>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:ASC89</themekey>
+      </theme>
+
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Benthic</themekey>
+        <themekey>Intertidal</themekey>
+        <themekey>Invertebrates</themekey>
+        <themekey>Algae</themekey>
+        <themekey>Mussels</themekey>
+        <themekey>Eelgrass</themekey>
+        <themekey>Nearshore Ecology</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>Biota</themekey>
+        <themekey>Environment</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS thesaurus</themekt>
+        <themekey>Ecology</themekey>
+        <themekey>Community ecology</themekey>
+        <themekey>Ecosystem monitoring</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>Gulf of Alaska</placekey>
+        <placekey>Prince William Sound</placekey>
+        <placekey>Kenai Fjords National Park</placekey>
+        <placekey>Katmai National Park and Preserve</placekey>
+        <placekey>Lake Clark National Park</placekey>
+        <placekey>Kachemak Bay</placekey>
+        <placekey>Alaska Peninsula</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.
+Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+Any person using the information here should fully understand the data collection procedures before beginning analyses. The burden for determining fitness of use lies entirely with the user. For purposes of publication of dissemination, citations or credit should be given to the authors and USGS.
+USGS grants to the public a non-exclusive, royalty-free license to use these data for non-commercial educational or scientific research purposes. 
+Please let owner know when data are used and cite primary authors and database when using or publishing these data. 
+This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council under Project/Program No. 12120114-R. Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.</useconst>
+    <datacred>Many people (USGS staff, contractors, and NPS staff) deserve thanks and recognition for the selection of sites and the location information contained in this data set. The following were instrumental in site selection and establishment: James Bodkin, Heather Coletti, Tom Dean, Alan Bennett, Bill Thompson, Meg Hahr, and Claudette Moore.</datacred>
+    <native>The original data are stored as a Microsoft Excel workbook in a Windows operating environment, but have been exported as comma separated text files for dissemination.</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Site end points were spatially verified by repeated site visits to confirm or edit their correct position. Physical site locations were initially established and marked with stainless steel marker plates bolted to the rock (for rocky intertidal and mussel sites) or 18-24 inch rebar stakes with garden hose covers pounded into the site (soft sediment sites).  GPS coordinates were collected using hand held Garmin GPS Map 76csx units set for NAD83. Waypoints and marker locations were verified and refined in subsequent years by additional observers as they re-located sites for repeat sampling. Uncertainty may exist for site locations as sometimes marker plates and rebar stakes are difficult to find in the intertidal. The program is in the process of building a 'site finder' book for each region for field crews to use when re-visiting sites. In addition to site coordinates it will include photos to aid in finding site markers or starting points for transects.</attraccr>
+    </attracc>
+    <logic>These data have been checked for accuracy by visually inspecting plots using GIS tools as well as finding the site markers each year during field sampling events.</logic>
+    <complete>The data set is complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted. A site is here defined as an approximately 50 to 100-meter section of coastline and the water directly adjacent to it. Site coordinates refer to the marker placed at the starting end point of the site. For rocky and mussel sites this is a stainless steel plate bolted to the rock. For soft sediment sites this is a length of rebar with a piece of garden hose pounded into the sediment and a marker plate attached to the rebar. Eelgrass coordinates mark four corner buoys that outline the perimeter of the bed being monitored or a center point of the bed as indicated in the data.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <method>
+        <methtype>Field</methtype>
+        <methdesc>Discrete sampling sites used to sample intertidal invertebrates and algae on sheltered rocky
+shorelines were selected using a generalized random tessellation stratified (GRTS) sampling
+scheme. This design provides a random yet spatially balanced
+distribution of sites within block. A GRTS design also allows for expansion or contraction of the
+number of sites to be sampled over time by pre-selecting a large number of sites that are ordered
+with respect to priority. Thus, sampling sites can be added or deleted without compromising the
+statistical or spatial integrity of the design.
+Rocky intertidal sampling sites were selected using a Windows-based GRTS sampling
+software program. See Protocol narrative for Marine Nearshore Ecosystem
+Monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756 for details.</methdesc>
+        <methcite>
+          <citeinfo>
+            <origin>Dean, T. A., J. L. Bodkin, H. A. Coletti.</origin>
+            <pubdate>2014</pubdate>
+            <title>Protocol narrative for marine nearshore ecosystem
+monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756.</title>
+            <geoform>document</geoform>
+            <othercit>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem
+monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</othercit>
+            <onlink>https://science.nature.nps.gov/im/units/swan/assets/docs/reports/protocols/nearshore/DeanT_2014_SWAN_NearshoreProtocolNarrative.pdf</onlink>
+          </citeinfo>
+        </methcite>
+      </method>
+      <method>
+        <methtype>Field</methtype>
+        <methdesc>Sampling of intertidal invertebrates on sand/gravel beaches, mussels in mussel beds, and
+eelgrass are sampled at sites of appropriate habitat type that are closest to the randomly
+selected rocky intertidal sites. We chose to focus samplings for these metrics around the
+randomly selected rocky sites rather than an independent set of randomly selected sites because
+of the logistical constraints (a reduction in travel time between sites) and because of a desire to
+geographically link sites for sampling of all metrics as closely as possible while still maintaining
+a random component. 
+
+Clam and mussel sites were identified by appropriate habitats
+(unconsolidated sediments for clam and consolidated rocky for mussels) and the presence of
+clams and mussels. 
+
+Transects used for estimating black oystercatcher density were centered on rocky intertidal sites. 
+
+Sea otter foraging observations are made at sites wherever sea otters
+are seen foraging within a 5 km radius of rocky intertidal sampling sites. 
+
+Water quality metrics (contaminants in mussels, temperature, and salinity)
+are measured at sites identified for sampling of intertidal invertebrates on rocky shores.
+Temperature and salinity are sampled at the rocky intertidal sites and contaminants will be
+measured in mussels collected from either rocky intertidal or nearby mussel sites.
+
+In addition to sites selected using the GRTS design, sampling has also been conducted at several
+sites that were selected based on their proximity to locations of probable future impact from
+shoreline development, sites with historical data of interest, or sites of special interest to local
+citizens.</methdesc>
+        <methcite>
+          <citeinfo>
+            <origin>Dean, T. A., J. L. Bodkin, H. A. Coletti.</origin>
+            <pubdate>2014</pubdate>
+            <title>Protocol narrative for marine nearshore ecosystem
+monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756.</title>
+            <geoform>document</geoform>
+            <othercit>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem
+monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</othercit>
+            <onlink>https://science.nature.nps.gov/im/units/swan/assets/docs/reports/protocols/nearshore/DeanT_2014_SWAN_NearshoreProtocolNarrative.pdf</onlink>
+          </citeinfo>
+        </methcite>
+      </method>
+      <procstep>
+        <procdesc>not applicable</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Sites in the Gulf of Alaska in Prince William Sound, the Katmai coast, the Kenai Fjords coast, and around Kachemak Bay.</indspref>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00000001</latres>
+        <longres>0.00000001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>World Geodetic System of 1984</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.25722210088</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>NearshoreSystemsInGOA_IntertidalSiteLocations_MasterList21Dec2016</enttypl>
+        <enttypd>This is spreadsheet data exported as a comma delimited file.  Each record (row) represents one monitoring site.</enttypd>
+        <enttypds>producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Region</attrlabl>
+        <attrdef>Largest Spatial Designation for these analyses. The Gulf Watch Alaska Nearshore Monitoring component has three regions where monitoring sites are located: AKP = Alaska Peninsula, KEP = Kenai Peninsula, PWS = Prince William Sound. Each region has 3 blocks, of which one has been chosen for intensive sampling. The remaining blocks in a region will be sampled extensively, if time, finding, and motivation allow.</attrdef>
+        <attrdefs>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AKP</edomv>
+            <edomvd>Alaska Peninsula</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP</edomv>
+            <edomvd>Kenai Peninsula</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS</edomv>
+            <edomvd>Prince William Sound</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Block_Number</attrlabl>
+        <attrdef>Unit within the region, Two-digit number for the sampling block. This should be a text field but is often recognized as numeric and the leading zero is eliminated from the value, e.g. block 05 becomes block 5. They are the same block.</attrdef>
+        <attrdefs>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>04</edomv>
+            <edomvd>One of 3 blocks on the Kenai Peninsula. This block encompasses Kachemak Bay (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>05</edomv>
+            <edomvd>One of 3 blocks on the Kenai Peninsula. This block encompasses Kenai Fjords National Park and Preserve (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>07</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the northern Sound (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>08</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the western Sound (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>09</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the eastern Sound (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>One of 3 blocks on the Alaska Peninsula. This block encompasses Katmai National Park and Preserve (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>One of 3 blocks on the Alaska Peninsula. This block encompasses Lake Clark National Park and Preserve (LACL).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Block_Name</attrlabl>
+        <attrdef>Unit within the region, Four-character name for the sampling block. Often used because it is more intuitive than the block number.</attrdef>
+        <attrdefs>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>KATM</edomv>
+            <edomvd>One of 3 blocks on the Alaska Peninsula. This block encompasses Katmai National Park and Preserve. Block_Number is 10.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LACL</edomv>
+            <edomvd>One of 3 blocks on the Alaska Peninsula. This block encompasses Lake Clark National Park and Preserve. Block_Number is 12.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEFJ</edomv>
+            <edomvd>One of 3 blocks on the Kenai Peninsula. This block encompasses Kenai Fjords National Park and Preserve. Block_Number is 05.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KBAY</edomv>
+            <edomvd>One of 3 blocks on the Kenai Peninsula. This block encompasses Kachemak Bay. Block_Number is 04.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPWS</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the western Sound. Block_Number is 08.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>EPWS</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the eastern Sound. Block_Number is 09.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NPWS</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the northern Sound. Block_Number is 07.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_ID</attrlabl>
+        <attrdef>Sites are the smallest spatial scale, designating more specific location of mussel sampling sites. These data are designed to be analyzed at the Region level, but site level analyses will also be used.  Site codes are a combination of region, block, and site number as well as the type of sampling. Sites RI_01-RI_05, SI_01-SI_05, and MI_01 - MI_05 are used in each intensively sampled block within each region, while Sites RE_01-RE_05, SE_01-SE_05, and ME_01-ME_05 are used in extensively sampled blocks within PWS.  R = Rocky Intertidal sampling, S = soft sediment sampling, and M = mussel sampling, I = Intensive block, E = Extensive block. RS and SS sites were rocky selected and soft selected rather than being randomly chosen. Sites also have names (e.g. Kukak) that are easier to use in the field while this formal code  incorporates region and block information for more detailed descriptor. Site_ID has also been called Sitecode in some Gulf Watch data sets.</attrdef>
+        <attrdefs>producer defined and Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_MI_01</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Kukak Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_MI_02</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Kaflia Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_MI_03</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Kinak Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_MI_04</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Amalik Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_MI_05</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Takli Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_ME_01</edomv>
+            <edomvd>One of 6 mussel bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Bishop's Beach.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_ME_02</edomv>
+            <edomvd>One of 6 mussel bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Bluff Point.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_ME_03</edomv>
+            <edomvd>One of 6 mussel bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Cohen Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_ME_04</edomv>
+            <edomvd>One of 6 mussel bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Outside.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_ME_05</edomv>
+            <edomvd>One of 6 mussel bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Port Graham.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_ME_06</edomv>
+            <edomvd>One of 6 mussel bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Elephant Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_MI_01</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Aialik Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_MI_02</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), McCarty Fjord.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_MI_03</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Nuka Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_MI_04</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Nuka Passage.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_MI_05</edomv>
+            <edomvd>One of 5 mussel bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Harris Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_ME_01</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Cedar Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_ME_02</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Ester Passage.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_ME_03</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Bettles Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_ME_04</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Perry Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_ME_05</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Unakwik Inlet.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_MI_01</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in western Prince William Sound in Block 08 (WPWS), Hogan Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_MI_02</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in western Prince William Sound in Block 08 (WPWS), Iktua Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_MI_03</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in western Prince William Sound in Block 08 (WPWS), Whale Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_MI_04</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in western Prince William Sound in Block 08 (WPWS), Johnson Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_MI_05</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in western Prince William Sound in Block 08 (WPWS), Herring Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_ME_01</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Galena Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_ME_02</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Port Fidalgo.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_ME_03</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Olsen Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_ME_04</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Simpson Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_ME_05</edomv>
+            <edomvd>One of 5 mussel bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Observation Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_RI_01</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Alaska Peninsula in Block 10 (KATM), Kukak Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_RI_02</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Alaska Peninsula in Block 10 (KATM), Kaflia Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_RI_03</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Alaska Peninsula in Block 10 (KATM), Kinak Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_RI_04</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Alaska Peninsula in Block 10 (KATM), Amalik Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_RI_05</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Alaska Peninsula in Block 10 (KATM), Takli Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_RS_01</edomv>
+            <edomvd>A selected rocky intertidal sampling site on the Alaska Peninsula in Block 10 (KATM). This is also known by Site_Name Ninagiak Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_RE_01</edomv>
+            <edomvd>One of 6 rocky intertidal sampling sites on the Kenai Peninsula in Block 04 (KBAY), Bishop's Beach.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_RE_02</edomv>
+            <edomvd>One of 6 rocky intertidal sampling sites on the Kenai Peninsula in Block 04 (KBAY), Bluff Point.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_RE_03</edomv>
+            <edomvd>One of 6 rocky intertidal sampling sites on the Kenai Peninsula in Block 04 (KBAY), Cohen Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_RE_04</edomv>
+            <edomvd>One of 6 rocky intertidal sampling sites on the Kenai Peninsula in Block 04 (KBAY), Outside.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_RE_05</edomv>
+            <edomvd>One of 6 rocky intertidal sampling sites on the Kenai Peninsula in Block 04 (KBAY), Port Graham.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_RE_06</edomv>
+            <edomvd>One of 6 rocky intertidal sampling sites on the Kenai Peninsula in Block 04 (KBAY), Elephant Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_RI_01</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Aialik Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_RI_02</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Kenai Peninsula in Block 05 (KEFJ), McCarty Fjord.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_RI_03</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Nuka Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_RI_04</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Nuka Passage.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_RI_05</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Harris Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_RE_01</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in northern Prince William Sound in Block 07 (NPWS), Cedar Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_RE_02</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in northern Prince William Sound in Block 07 (NPWS), Ester Passage.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_RE_03</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in northern Prince William Sound in Block 07 (NPWS), Bettles.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_RE_04</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in northern Prince William Sound in Block 07 (NPWS), Perry Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_RE_05</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in northern Prince William Sound in Block 07 (NPWS), Unakwik Inlet.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_RI_01</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in western Prince William Sound in Block 08 (WPWS), Hogan Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_RI_02</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in western Prince William Sound in Block 08 (WPWS), Iktua Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_RI_03</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in western Prince William Sound in Block 08 (WPWS), Whale Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_RI_04</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in western Prince William Sound in Block 08 (WPWS), Johnson Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_RI_05</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in western Prince William Sound in Block 08 (WPWS), Herring Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_RS_02</edomv>
+            <edomvd>One of 3 selected rocky intertidal sampling sites in western Prince William Sound in Block 08 (WPWS). Also known as Site_Name Herring Bay (Bear Cove).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_RS_04</edomv>
+            <edomvd>One of 3 selected rocky intertidal sampling sites in western Prince William Sound in Block 08 (WPWS). Also known as Site_Name Disk Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_RS_05</edomv>
+            <edomvd>One of 3 selected rocky intertidal sampling sites in western Prince William Sound in Block 08 (WPWS). Also known as Site_Name Northwest Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_RE_01</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in eastern Prince William Sound in Block 09 (EPWS), Galena Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_RE_02</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in eastern Prince William Sound in Block 09 (EPWS), Port Fidalgo.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_RE_03</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in eastern Prince William Sound in Block 09 (EPWS), Olsen Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_RE_04</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in eastern Prince William Sound in Block 09 (EPWS), Simpson Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_RE_05</edomv>
+            <edomvd>One of 5 rocky intertidal sampling sites in eastern Prince William Sound in Block 09 (EPWS), Observation Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_SI_01</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in Block 10 (KATM), Kukak Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_SI_02</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in Block 10 (KATM), Kaflia Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_SI_03</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in Block 10 (KATM), Kinak Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_SI_04</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in Block 10 (KATM), Amalik Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_SI_05</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in Block 10 (KATM), Takli Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_SS_01</edomv>
+            <edomvd>A selected soft sediment sampling site on the Alaska Peninsula in Block 10 (KATM). This is also known by Site_Name Ninagiak Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B12_SE_01</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in extensive Block 12 (LACL), Chinitna Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B12_SE_02</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in extensive Block 12 (LACL), Tukendni Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B12_SE_03</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in extensive Block 12 (LACL), Chisik Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B12_SE_04</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in extensive Block 12 (LACL), Johnson Creek.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B12_SE_05</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Alaska Peninsula in extensive Block 12 (LACL), Polly Creek.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_SE_01</edomv>
+            <edomvd>One of 4 soft sediment sampling sites on the Kenai Peninsula in Block 04 (KBAY), Bear Cove.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_SE_02</edomv>
+            <edomvd>One of 4 soft sediment sampling sites on the Kenai Peninsula in Block 04 (KBAY), China Poot Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_SE_03</edomv>
+            <edomvd>One of 4 soft sediment sampling sites on the Kenai Peninsula in Block 04 (KBAY), Jakalof Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_SE_04</edomv>
+            <edomvd>One of 4 soft sediment sampling sites on the Kenai Peninsula in Block 04 (KBAY), Port Graham.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_SI_01</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Aialik Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_SI_02</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Kenai Peninsula in Block 05 (KEFJ), McCarty Fjord.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_SI_03</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Nuka Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_SI_04</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Nuka Passage.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_SI_05</edomv>
+            <edomvd>One of 5 soft sediment sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Harris Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_SE_01</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in northern Prince William Sound, Block 07 (NPWS), Cedar Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_SE_02</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in northern Prince William Sound, Block 07 (NPWS), Ester Passage.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_SE_03</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in northern Prince William Sound, Block 07 (NPWS), Bettles Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_SE_04</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in northern Prince William Sound, Block 07 (NPWS), Perry Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_SE_05</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in northern Prince William Sound, Block 07 (NPWS), Unakwik Inlet.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_SI_01</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in western Prince William Sound, Block 08 (WPWS), Hogan Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_SI_02</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in western Prince William Sound, Block 08 (WPWS), Iktua Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_SI_03</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in western Prince William Sound, Block 08 (WPWS), Whale Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_SI_04</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in western Prince William Sound, Block 08 (WPWS), Johnson Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_SI_05</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in western Prince William Sound, Block 08 (WPWS), Herring Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_SS_02</edomv>
+            <edomvd>One of 3 selected soft sediment sampling sites in western Prince William Sound, Block 08 (WPWS), Herring Bay- Southwest.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_SS_04</edomv>
+            <edomvd>One of 3 selected soft sediment sampling sites in western Prince William Sound, Block 08 (WPWS), Disk Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_SS_05</edomv>
+            <edomvd>One of 3 selected soft sediment sampling sites in western Prince William Sound, Block 08 (WPWS), Northwest Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_SE_01</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in eastern Prince William Sound, Block 09 (EPWS), Galena Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_SE_02</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in eastern Prince William Sound, Block 09 (EPWS), Port Fidalgo.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_SE_03</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in eastern Prince William Sound, Block 09 (EPWS), Olsen Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_SE_04</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in eastern Prince William Sound, Block 09 (EPWS), Simpson Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_SE_05</edomv>
+            <edomvd>One of 5 soft sediment sampling sites in eastern Prince William Sound, Block 09 (EPWS), Observation Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_Name</attrlabl>
+        <attrdef>Sites are the smallest spatial scale, designating more specific location of sampling sites. Site names can refer to mussel, rocky intertidal, soft sediment, or eelgrass sampling. These data are designed to be analyzed at the Region level, but site level analyses will also be used.  Site_Name is a common name for sampling site that is easier and more intuitive to use in the field than site numbers or codes.</attrdef>
+        <attrdefs>producer defined and Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Bear or Bear Cove</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bishop's Beach</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bluff Point</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cohen Island</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Outside</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Port Graham</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Elephant Island</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Aialik or Aialik Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>McCarty or McCarty Fjord</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Nuka Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Nuka Pass or Nuka Passage</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Harris or Harris Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cedar or Cedar Bay</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bettles or Bettles Bay</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Perry or Perry Island</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Unakwik or Unakwik Inlet</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Esther or Esther Passage</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Hogan or Hogan Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Iktua or Iktua Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Whale or Whale Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Johnson or Johnson Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Herring or Herring Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Galena or Galena Bay</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Fidalgo or Port Fidalgo</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Olsen or Olsen Bay</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Simpson or Simpson Bay</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Observation or Observation Island</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kukak or Kukak Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kaflia or Kaflia Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kinak or Kinak Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Amalik or Amalik Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Takli or Takli Island</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Ninagiak or Ninagiak Island or Nina</edomv>
+            <edomvd>A selected, not randomly chosen, sampling site on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Herring- Bear or Herring Bay-Bear Cove</edomv>
+            <edomvd>A selected, not randomly chosen, sampling site in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Herring-Southwest or Herring Bay-Southwest</edomv>
+            <edomvd>A selected, not randomly chosen, sampling site in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Northwest or Northwest Bay</edomv>
+            <edomvd>A selected, not randomly chosen, sampling site in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Disk or Disk Island</edomv>
+            <edomvd>A selected, not randomly chosen, sampling site in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Chinitna or Chinitna Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 12 (LACL).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Tukendi or Tukendni Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 12 (LACL).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Chisik or Chisik Island</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 12 (LACL).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Johnson Creek</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 12 (LACL).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Polly Creek</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 12 (LACL).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>China Poot or China Poot Bay</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Jakalof or Jakalof Bay</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>latitude of the site.</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>58.06026</rdommin>
+            <rdommax>60.97401</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>longitude of the site.</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-154.48701</rdommin>
+            <rdommax>-145.73062</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site Type</attrlabl>
+        <attrdef>Type of sampling site.</attrdef>
+        <attrdefs>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>mussel</edomv>
+            <edomvd>intertidal mussel sampling site</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>rocky</edomv>
+            <edomvd>rocky intertidal sampling site</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>soft</edomv>
+            <edomvd>soft or unconsolidated sediment sampling site</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GRTS_Number</attrlabl>
+        <attrdef>Generalized Random Tessellation Stratified sampling scheme sequential number. GRTS provides a random yet spatially
+balanced distribution of sites within each block. The first 5 sites within a block to be randomly chosen were used. In some cases sites were unusable so the next available sequential GRTS number was chosen. For sites that were selected rather than being randomly chosen, this field is not applicable (NA).</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>15</rdommax>
+            <attrunit>no units</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Date_Established</attrlabl>
+        <attrdef>date site was first sampled or set up</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4-Jun-2003</rdommin>
+            <rdommax>7-May-2015</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>NearshoreSystemsInGOA_EelgrassBedSiteLocations_MasterList21Dec2016</enttypl>
+        <enttypd>This is spreadsheet data exported as a comma delimited file.  Each record (row) represents one eelgrass monitoring site corner.</enttypd>
+        <enttypds>producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Region</attrlabl>
+        <attrdef>Largest Spatial Designation for these analyses. The Gulf Watch Alaska Nearshore Monitoring component has three regions where monitoring sites are located: AKP = Alaska Peninsula, KEP = Kenai Peninsula, PWS = Prince William Sound. Each region has 3 blocks, of which one has been chosen for intensive sampling. The remaining blocks in a region will be sampled extensively, if time, finding, and motivation allow.</attrdef>
+        <attrdefs>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AKP</edomv>
+            <edomvd>Alaska Peninsula</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP</edomv>
+            <edomvd>Kenai Peninsula</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS</edomv>
+            <edomvd>Prince William Sound</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Block_Number</attrlabl>
+        <attrdef>Unit within the region, Two-digit number for the sampling block. This should be a text field but is often recognized as numeric and the leading zero is eliminated from the value, e.g. block 05 becomes block 5. They are the same block.</attrdef>
+        <attrdefs>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>04</edomv>
+            <edomvd>One of 3 blocks on the Kenai Peninsula. This block encompasses Kachemak Bay (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>05</edomv>
+            <edomvd>One of 3 blocks on the Kenai Peninsula. This block encompasses Kenai Fjords National Park and Preserve (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>07</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the northern Sound (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>08</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the western Sound (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>09</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the eastern Sound (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>One of 3 blocks on the Alaska Peninsula. This block encompasses Katmai National Park and Preserve (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>One of 3 blocks on the Alaska Peninsula. This block encompasses Lake Clark National Park and Preserve (LACL).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Block_Name</attrlabl>
+        <attrdef>Unit within the region, Four-character name for the sampling block. Often used because it is more intuitive than the block number.</attrdef>
+        <attrdefs>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>KATM</edomv>
+            <edomvd>One of 3 blocks on the Alaska Peninsula. This block encompasses Katmai National Park and Preserve. Block_Number is 10.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEFJ</edomv>
+            <edomvd>One of 3 blocks on the Kenai Peninsula. This block encompasses Kenai Fjords National Park and Preserve. Block_Number is 05.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KBAY</edomv>
+            <edomvd>One of 3 blocks on the Kenai Peninsula. This block encompasses Kachemak Bay. Block_Number is 04.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPWS</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the western Sound. Block_Number is 08.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>EPWS</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the eastern Sound. Block_Number is 09.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NPWS</edomv>
+            <edomvd>One of 3 blocks in Prince William Sound. This block is comprised of the northern Sound. Block_Number is 07.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_ID</attrlabl>
+        <attrdef>Sites are the smallest spatial scale, designating more specific location of mussel sampling sites. These data are designed to be analyzed at the Region level, but site level analyses will also be used.  Site codes are a combination of region, block, and site number as well as the type of sampling. Sites RI_01-RI_05, SI_01-SI_05, and MI_01 - MI_05 are used in each intensively sampled block within each region, while Sites RE_01-RE_05, SE_01-SE_05, and ME_01-ME_05 are used in extensively sampled blocks within PWS.  R = Rocky Intertidal sampling, S = soft sediment sampling, and M = mussel sampling, I = Intensive block, E = Extensive block. RS and SS sites were rocky selected and soft selected rather than being randomly chosen. Sites also have names (e.g. Kukak) that are easier to use in the field while this formal code  incorporates region and block information for more detailed descriptor. Site_ID has also been called Sitecode in some Gulf Watch data sets.</attrdef>
+        <attrdefs>producer defined and Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_EI_01</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Kukak Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_EI_02</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Kaflia Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_EI_03</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Kinak Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_EI_04</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Amalik Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AKP_B10_EI_05</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Alaska Peninsula in Block 10 (KATM), Takli Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_EE_01</edomv>
+            <edomvd>One of 5 selected eelgrass bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Herring Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_EE_02</edomv>
+            <edomvd>One of 5 selected eelgrass bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Peterson Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_EE_03</edomv>
+            <edomvd>One of 5 selected eelgrass bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Jakalof Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_EE_04</edomv>
+            <edomvd>One of 5 selected eelgrass bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Homer Spit-original.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B04_EE_05</edomv>
+            <edomvd>One of 5 selected eelgrass bed sampling sites on the Kenai Peninsula in Block 04 (KBAY), Homer Spit-drone.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_EI_01</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Aialik Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_EI_02</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), McCarty Fjord.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_EI_03</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Nuka Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_EI_04</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Nuka Passage.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>KEP_B05_EI_05</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites on the Kenai Peninsula in Block 05 (KEFJ), Harris Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_EE_01</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Cedar Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_EE_02</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Ester Passage.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_EE_03</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Bettles Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_EE_04</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Perry Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B07_EE_05</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in northern Prince William Sound in Block 07 (NPWS), Unakwik Inlet.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_EI_01</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in western Prince William Sound in Block 08 (WPWS), Hogan Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_EI_02</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in western Prince William Sound in Block 08 (WPWS), Iktua Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_EI_03</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in western Prince William Sound in Block 08 (WPWS), Whale Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_EI_04</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in western Prince William Sound in Block 08 (WPWS), Johnson Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B08_EI_05</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in western Prince William Sound in Block 08 (WPWS), Herring Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_EE_01</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Galena Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_EE_02</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Port Fidalgo.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_EE_03</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Olsen Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_EE_04</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Simpson Bay.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWS_B09_EE_05</edomv>
+            <edomvd>One of 5 eelgrass bed sampling sites in eastern Prince William Sound in Block 09 (EPWS), Observation Island.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_Name</attrlabl>
+        <attrdef>Sites are the smallest spatial scale, designating more specific location of sampling sites. Site names can refer to mussel, rocky intertidal, soft sediment, or eelgrass sampling. These data are designed to be analyzed at the Region level, but site level analyses will also be used.  Site_Name is a common name for sampling site that is easier and more intuitive to use in the field than site numbers or codes.</attrdef>
+        <attrdefs>producer defined and Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Herring Island</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Peterson Bay</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Jakalof or Jakalof Bay</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Homer Spit-original</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Homer Spit-drone</edomv>
+            <edomvd>One of the selected sampling sites on the Kenai Peninsula in Block 04 (KBAY).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Aialik or Aialik Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>McCarty or McCarty Fjord</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Nuka Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Nuka Pass or Nuka Passage</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Harris or Harris Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Kenai Peninsula in Block 05 (KEFJ).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cedar or Cedar Bay</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bettles or Bettles Bay</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Perry or Perry Island</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Unakwik or Unakwik Inlet</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Esther or Esther Passage</edomv>
+            <edomvd>One of 5 sampling sites in northern Prince William Sound in Block 07 (NPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Hogan or Hogan Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Iktua or Iktua Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Whale or Whale Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Johnson or Johnson Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Herring or Herring Bay</edomv>
+            <edomvd>One of 5 sampling sites in western Prince William Sound in Block 08 (WPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Galena or Galena Bay</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Fidalgo or Port Fidalgo</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Olsen or Olsen Bay</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Simpson or Simpson Bay</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Observation or Observation Island</edomv>
+            <edomvd>One of 5 sampling sites in eastern Prince William Sound in Block 09 (EPWS).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kukak or Kukak Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kaflia or Kaflia Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kinak or Kinak Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Amalik or Amalik Bay</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Takli or Takli Island</edomv>
+            <edomvd>One of 5 sampling sites on the Alaska Peninsula in Block 10 (KATM).</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>latitude of the center of the eelgrass bed or of one of the four corners of the eelgrass bed site.</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>58.0631713229</rdommin>
+            <rdommax>60.975355</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>longitude of the center of the eelgrass bed or of one of the four corners of the eelgrass bed site.</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-154.535146</rdommin>
+            <rdommax>-145.73138</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_Type</attrlabl>
+        <attrdef>Type of sampling site.</attrdef>
+        <attrdefs>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>eelgrass</edomv>
+            <edomvd>eelgrass bed sampling site</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Point_Location</attrlabl>
+        <attrdef>What the latitude-longitude point references.</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>center</edomv>
+            <edomvd>A point in the center of the eelgrass bed.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>corner</edomv>
+            <edomvd>One of four corner points encompassing the eelgrass bed.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The information contained in these datasets includes region, block, and site information, type of site and latitude and longitude for sites.</eaover>
+      <eadetcit>Dean, T. A., J. L. Bodkin, H. A. Coletti. 2014. Protocol narrative for marine nearshore ecosystem
+monitoring in the Gulf of Alaska: Version 1.1. Natural Resource Report NPS/SWAN/NRR - 2014/756. National Park Service, Fort Collins, Colorado.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey,  Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508</postal>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>NearshoreSystemsInGOA_IntertidalBedSiteLocationS_2006-2016_MasterList21Dec2016, NearshoreSystemsInGOA_EelgrassBedSiteLocationS_2006-2016_MasterList21Dec2016</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.
+This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council under Project/Program No. 12120114-R. Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formcont>Zip file containing data files in CSV file format and FGDC metadata in XML and HTML formats.</formcont>
+          <filedec>Use WinZip, pkUnzip, or other open source or commercially available unzip tool.</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/F78S4N3R</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20201125</metd>
+    <metrd>20170227</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>K. A. Kloecker</cntper>
+          <cntorg>producer defined</cntorg>
+        </cntperp>
+        <cntpos>biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508</postal>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metac>None</metac>
+    <metuc>None</metuc>
+  </metainfo>
+</metadata>
