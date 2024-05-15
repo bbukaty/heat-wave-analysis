@@ -31,20 +31,6 @@ SITES = {
     }
 }
 
-# MONTH_COLORS = {
-#     1: 'violet',
-#     4: 'gray',
-#     5: 'darkred',
-#     6: 'red',
-#     7: 'orange',
-#     8: 'gold',
-#     9: 'lightgreen',
-#     10: 'green',
-#     11: 'blue',
-#     12: 'darkblue',
-#     12: 'magenta'
-# }
-
 MONTH_COLORS = {
     1: 'gray',
     4: 'darkred',
@@ -131,7 +117,7 @@ def get_noaa_tide_preds(site, date_range):
         'application': 'NOS.COOPS.TAC.WL',
         'begin_date': begin_date,
         'end_date': end_date,
-        'datum': 'MLLW',  # is this reasonable? https://tidesandcurrents.noaa.gov/datum_options.html
+        'datum': 'MLLW',
         'station': site['noaa_station_id'],
         'time_zone': 'lst_ldt',
         'units': 'english',
@@ -164,8 +150,3 @@ def interpolate_tide_preds(tide_series, desired_time_index):
     tide_high_res = pd.Series(
         data=tide_high_res_numeric, index=desired_time_index)
     return tide_high_res
-
-
-def normalize_series(series) -> pd.Series:
-    min_val, max_val = series.min(), series.max()
-    return (series - min_val) / (max_val - min_val)
